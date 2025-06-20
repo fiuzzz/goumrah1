@@ -3,15 +3,8 @@ import { MdDateRange, MdOutlineAirplanemodeActive, MdOutlineLocationOn } from "r
 import { RiHotelLine } from "react-icons/ri";
 import imageDummy from "/image-dummy.png"
 
-export const Card = ({ product }) => {
-  
-  const formatRupiah = (angka) => {
-    return new Intl.NumberFormat("id-ID", {
-      style: "currency",
-      currency: "IDR",
-      minimumFractionDigits: 0,
-    }).format(angka);
-  };
+export const Card = () => {
+
   return (
     <div className="max-w-sm overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm">
       <div className="bg-primary overflow-hidden relative h-36 text-white">

@@ -294,7 +294,7 @@ export const Home = () => {
     return (
       <div className="grid gap-4 max-sm:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {displayedCards.map((product, index) => (
-          <Card product={product} key={index} />
+          <Card key={index} />
         ))}
       </div>
     );
